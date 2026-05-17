@@ -35,42 +35,6 @@
 | **DevOps** | Docker, docker-compose, Kubernetes manifests |
 | **Инструменты** | Git, VS Code, pre-commit (black, flake8, isort) |
 
----
-
-## 📁 Структура проекта
-SoftwareDevelopment/
-├── app/
-│ ├── init.py
-│ ├── main.py # FastAPI entry point + endpoints
-│ ├── config.py # Config via environs + dataclass
-│ ├── logger.py # Logging setup
-│ ├── models.py # Pydantic schemas
-│ ├── scraper.py # CBR data scraping (mock-ready)
-│ ├── features.py # Feature engineering + SQLite storage
-│ └── train.py # ML pipeline + MLflow logging
-├── frontend/
-│ └── app.py # Streamlit UI
-├── data/
-│ ├── cbr_history.csv # Historical USD/RUB data
-│ ├── features.db # SQLite Feature Store
-│ └── feature_metadata.json
-├── models/
-│ └── best_model.pkl # Trained RandomForest model
-├── docker/
-│ ├── Dockerfile.backend
-│ ├── Dockerfile.frontend
-│ └── docker-compose.yml
-├── k8s/
-│ ├── backend-deployment.yaml
-│ ├── backend-service.yaml
-│ ├── frontend-deployment.yaml
-│ └── frontend-service.yaml
-├── .env.example
-├── .gitignore
-├── requirements.txt
-└── README.md # Этот файл
-
----
 
 ## 🚀 Быстрый старт
 
