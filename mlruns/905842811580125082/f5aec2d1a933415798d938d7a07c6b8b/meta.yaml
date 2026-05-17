@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/darks/OneDrive/Рабочий стол/SoftwareDevelopment/mlruns/905842811580125082/f5aec2d1a933415798d938d7a07c6b8b/artifacts
+end_time: 1779047396849
+entry_point_name: ''
+experiment_id: '905842811580125082'
+lifecycle_stage: active
+run_id: f5aec2d1a933415798d938d7a07c6b8b
+run_name: LinearRegression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779047392753
+status: 3
+tags: []
+user_id: darks

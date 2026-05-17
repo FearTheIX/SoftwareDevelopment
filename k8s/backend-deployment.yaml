@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: currency-backend
+  labels:
+    app: currency-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: currency-backend
+  template:
+    metadata:
+      labels:
+        app: currency-backend
+    spec:
+      containers:
+      - name: fastapi
+        image: currency-backend:latest
+        ports:
+        - containerPort: 8000
+        env:
+        - name: DEBUG
+          value: "True"

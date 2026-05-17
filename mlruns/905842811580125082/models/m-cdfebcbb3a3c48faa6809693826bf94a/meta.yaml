@@ -1,0 +1,10 @@
+artifact_location: file:C:/Users/darks/OneDrive/Рабочий стол/SoftwareDevelopment/mlruns/905842811580125082/models/m-cdfebcbb3a3c48faa6809693826bf94a/artifacts
+creation_timestamp: 1779047392796
+experiment_id: '905842811580125082'
+last_updated_timestamp: 1779047396845
+model_id: m-cdfebcbb3a3c48faa6809693826bf94a
+model_type: null
+name: model
+source_run_id: f5aec2d1a933415798d938d7a07c6b8b
+status: 2
+status_message: null

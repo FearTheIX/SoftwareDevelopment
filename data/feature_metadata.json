@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-05-17T21:18:08.989282",
+  "source": "cbr-xml-daily.ru",
+  "total_records": 2677,
+  "columns": [
+    "usd_rate",
+    "eur_rate",
+    "day_of_week",
+    "month",
+    "is_weekend",
+    "lag_1",
+    "lag_7",
+    "ma_7",
+    "ma_30"
+  ],
+  "description": "Признаки для прогнозирования USD/RUB: лаги, скользящие средние, временные флаги",
+  "missing_values_handled": "dropna после вычисления лагов/rolling"
+}

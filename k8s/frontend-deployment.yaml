@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: currency-frontend
+  labels:
+    app: currency-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: currency-frontend
+  template:
+    metadata:
+      labels:
+        app: currency-frontend
+    spec:
+      containers:
+      - name: streamlit
+        image: currency-frontend:latest
+        ports:
+        - containerPort: 8501
+        env:
+        - name: API_URL
+          value: "http://currency-backend-svc:8000"

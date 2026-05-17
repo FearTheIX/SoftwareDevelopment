@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/darks/OneDrive/Рабочий стол/SoftwareDevelopment/mlruns/905842811580125082/318110f19d68425cb943f882cdc6bfd7/artifacts
+end_time: 1779047400119
+entry_point_name: ''
+experiment_id: '905842811580125082'
+lifecycle_stage: active
+run_id: 318110f19d68425cb943f882cdc6bfd7
+run_name: RandomForest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779047396855
+status: 3
+tags: []
+user_id: darks
